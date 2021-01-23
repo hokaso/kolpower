@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta name="csrf-token" content="hDaygJCNpqsp0yFDOtOcBaR2qbptH6WTyOEJGgGF">-->
+  <!--<meta name="og:url" content="http://kolpower.cc/video-editor" />-->
+  <meta name="og:image" content="./meta.jpg"/>
+  <meta name="og:description" content="由Youtuber六指渊开发，能快速将Youtube留言变成图片"/>
+  <meta name="og:title" content="自动剪辑神器 | KOLpower
+"/>
+  <meta name="og:site_name" content="KOLpower"/>
+  <meta name="og:type" content="website"/>
+  <title>自动剪辑神器 | KOLpower
+  </title>
+  <script src="./app.js" defer></script>
+  <!-- <script src="./api.js" async defer></script>-->
+  <link rel="shortcut icon" href="./favicon.ico"/>
+  <link href="./app.css" rel="stylesheet">
+  <!-- <script async src="./js"></script>-->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'UA-56444316-4');
+  </script>
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window,
+      document, 'script', '');
+
+    fbq('init', '550351269003186');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+                 src="./noscript" alt=""/></noscript>
+  <script src="app.js"></script>
+  <!-- <script src="fbevents.js"></script>-->
+</head>
+<body>
+<div id="app">
+  <main class="py-4">
+    <video-editor-component></video-editor-component>
+  </main>
+</div>
+</body>
+</html>
